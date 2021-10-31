@@ -1,0 +1,24 @@
+package com.springdatajpa.dto;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity
+public class Employee implements Serializable{
+
+	@Column
+	private int EmpId;
+	@Column
+	private String empName;
+	@Column
+	private String empEmail;
+	@Column
+	private Date empDob;
+	
+}

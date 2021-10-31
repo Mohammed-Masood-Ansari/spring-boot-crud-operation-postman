@@ -1,0 +1,44 @@
+package com.springdatajpa.service;
+
+import java.util.List;
+
+import com.springdatajpa.dao.EmployeeDao;
+import com.springdatajpa.dto.EmployeeDto;
+
+public class EmployeeServiceImpl implements EmployeeServiceInterface {
+
+	private EmployeeDao dao;
+	@Override
+	public EmployeeDto addData(EmployeeDto dto) {
+		
+		return dao.save(dto);
+	}
+
+	@Override
+	public void delete(int id) {
+		
+		EmployeeDto dto=dao.findByEmpId(id);
+		
+		dao.delete(dto);
+	}
+
+	@Override
+	public EmployeeDto updateData(EmployeeDto id) {
+		
+		return dao.updateData(id);
+
+	}
+
+	@Override
+	@Override
+	public void getData(EmployeeDto dto) {
+		
+		return dao.findByEmpId(dto)
+	}
+
+	@Override
+	public List<EmployeeDto> getAllData() {
+		
+	}
+
+}

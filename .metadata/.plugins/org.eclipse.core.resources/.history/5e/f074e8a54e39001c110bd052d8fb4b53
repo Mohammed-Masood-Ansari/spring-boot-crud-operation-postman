@@ -1,0 +1,12 @@
+package com.springdatajpa.service;
+
+
+public class EmployeeIMpl implements Employee{
+
+	private com.springdatajpa.dao.Employee employee;
+	@Override
+	public void getData(int id) {
+		employee.findById(id);	
+	}
+
+}

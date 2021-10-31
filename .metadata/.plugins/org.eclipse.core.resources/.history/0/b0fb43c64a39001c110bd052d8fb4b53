@@ -1,0 +1,5 @@
+package com.springdatajpa.dto;
+
+public class Employee {
+
+}

@@ -1,0 +1,19 @@
+package com.springdatajpa.dto;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+
+import lombok.Data;
+
+@Data
+@Entity
+public class Employee implements  {
+
+	@Column
+	private int EmpId;
+	@Column
+	private String empName;
+	@Column
+	private String empEmail;
+	
+}

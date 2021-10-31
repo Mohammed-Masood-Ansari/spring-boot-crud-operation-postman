@@ -1,0 +1,14 @@
+package com.springdatajpa.dto;
+
+import java.util.Date;
+
+import lombok.Data;
+
+@Data
+public class Employee {
+
+	private int EmpId;
+	private String empName;
+	private String empEmail;
+	private Date empDob;
+}

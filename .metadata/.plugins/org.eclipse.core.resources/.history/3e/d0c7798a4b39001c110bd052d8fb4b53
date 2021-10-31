@@ -1,0 +1,5 @@
+package com.springdatajpa.dao;
+
+public interface Employee {
+
+}

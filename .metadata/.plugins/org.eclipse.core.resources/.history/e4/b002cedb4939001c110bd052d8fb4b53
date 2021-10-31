@@ -1,0 +1,3 @@
+#jdbc mysql configuration
+spring.datasource.url=jdbc:mysql://localhost:3306/emp_id
+

@@ -1,0 +1,6 @@
+package com.springdatajpa.service;
+
+public interface Employee {
+
+	public Employee getData(int id);
+}

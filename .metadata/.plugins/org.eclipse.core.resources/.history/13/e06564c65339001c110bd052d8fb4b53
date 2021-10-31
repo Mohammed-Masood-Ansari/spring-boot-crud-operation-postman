@@ -1,0 +1,8 @@
+package com.springdatajpa.service;
+
+import com.springdatajpa.dto.EmployeeDto;
+
+public interface EmployeeServiceInterface {
+
+	public EmployeeDto addData(EmployeeDto dto);
+}

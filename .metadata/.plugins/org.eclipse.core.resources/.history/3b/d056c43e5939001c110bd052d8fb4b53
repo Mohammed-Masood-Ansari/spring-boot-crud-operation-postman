@@ -1,0 +1,14 @@
+package com.springdatajpa.controller;
+
+import org.springframework.stereotype.Controller;
+
+import com.springdatajpa.dto.EmployeeDto;
+import com.springdatajpa.service.EmployeeServiceImpl;
+
+@Controller
+public class EmployeeController {
+	
+	private EmployeeServiceImpl employeeServiceImpl;
+	
+
+}

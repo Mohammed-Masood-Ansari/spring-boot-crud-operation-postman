@@ -1,0 +1,39 @@
+package com.springdatajpa.service;
+
+import java.util.List;
+
+import com.springdatajpa.dto.EmployeeDto;
+
+public class EmployeeServiceImpl implements EmployeeServiceInterface {
+
+	@Override
+	public EmployeeDto addData(EmployeeDto dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public EmployeeDto updateData(EmployeeDto dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EmployeeDto getData(EmployeeDto dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<EmployeeDto> getAllData() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

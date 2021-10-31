@@ -1,0 +1,13 @@
+package com.springdatajpa.service;
+
+import com.springdatajpa.dao.
+public class EmployeeIMpl implements Employee{
+
+	private Employee employee;
+	@Override
+	public Employee getData(int id) {
+		
+		
+	}
+
+}

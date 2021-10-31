@@ -1,0 +1,12 @@
+package com.springdatajpa.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.springdatajpa.dto.EmployeeDto;
+
+public interface EmployeeDao extends CrudRepository<EmployeeDto, Integer> {
+
+	public EmployeeDto addData(EmployeeDto dto);
+	
+	public void findByEmpId(int id);
+}

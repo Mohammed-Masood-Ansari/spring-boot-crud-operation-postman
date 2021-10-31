@@ -1,0 +1,7 @@
+package com.springdatajpa.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface Employee extends CrudRepository<Employee, Integer> {
+
+}

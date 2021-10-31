@@ -1,0 +1,8 @@
+package com.springdatajpa.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface Employee extends CrudRepository<com.springdatajpa.dto.Employee, Integer> {
+	
+	public void findById();
+}

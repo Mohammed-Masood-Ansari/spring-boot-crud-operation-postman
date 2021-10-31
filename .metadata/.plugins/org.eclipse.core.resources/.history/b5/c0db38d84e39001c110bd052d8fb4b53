@@ -1,0 +1,9 @@
+package com.springdatajpa.dto;
+
+public class Employee {
+
+	private int EmpId;
+	private String empName;
+	private String empEmail;
+	
+}
